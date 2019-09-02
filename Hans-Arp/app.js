@@ -16,9 +16,13 @@ $("#bg").on("click", function() {
   });
 
 // Reset game
+$("#reset").on("click", function() {
+    $("#canvas").empty();
+    $("#canvas").css("background-color",  "aliceblue");
+})
 
 
-// Function to place shape
+// Function to place a random shape on the page
 $("#shape").click(function() {
    var newShape = $("<div>");
    $("#canvas").append(newShape);
@@ -26,7 +30,7 @@ $("#shape").click(function() {
    $(".art").css({
        "position": "absolute",
        "top": Math.floor((Math.random() * 400) + 1),
-       "right": Math.floor((Math.random() * 300) + 1),
+       "right": Math.floor((Math.random() * 400) + 1),
        "width": Math.floor((Math.random() * 200) + 1),
        "height": Math.floor((Math.random() * 200) + 1),
        "background-color": getRandomColor(5)
