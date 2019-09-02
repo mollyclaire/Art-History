@@ -10,18 +10,44 @@ function getRandomColor(brightness){
 }
 
 // Click function for changing the background color
-$("#bg").click(function() {
+$("#bg").on("click", function() {
     var newBG = getRandomColor(5);  
     $("#canvas").css("background-color", newBG);
   });
 
 // Reset game
 
-// Click function for generating random shape 
+// Function for choosing random number for location
+// var randomTop = function() {
+//     Math.floor((Math.random() * 400) + 1);
+// }
+
+// var randomRight = function() {
+//     Math.floor((Math.random() * 300) + 1);
+// }
 
 // Function to place shape
 $("#shape").click(function() {
-    $(".art").css({"background-color": "yellow", "top": "-40px", "width": "20px"});
+    var newShape = $("<div>");
+    $("#canvas").append(newShape);
+    newShape.attr("class", "art");
+
+    var randomTop = function() {
+        Math.floor((Math.random() * 400) + 1);
+    }
+    
+    var randomRight = function() {
+        Math.floor((Math.random() * 300) + 1);
+    }
+
+    $(".art").css({
+        "position": "absolute",
+        "top": Math.floor((Math.random() * 400) + 1),
+        "right": Math.floor((Math.random() * 300) + 1),
+        "width": "200px",
+        "height": "100px",
+        "background-color": "#73AD21"
+    });
 });
 
 
