@@ -15,13 +15,14 @@
     background-color: aliceblue;
     box-sizing: border-box;
     position: relative;
+    overflow: hidden;
 }
 
-.art {
+/* .art {
     position: absolute;
     top: 80px;
     right: 0;
     width: 200px;
     height: 100px;
     background-color: #73AD21;
-  }
+  } */
