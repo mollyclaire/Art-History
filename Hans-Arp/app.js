@@ -17,38 +17,24 @@ $("#bg").on("click", function() {
 
 // Reset game
 
-// Function for choosing random number for location
-// var randomTop = function() {
-//     Math.floor((Math.random() * 400) + 1);
-// }
-
-// var randomRight = function() {
-//     Math.floor((Math.random() * 300) + 1);
-// }
 
 // Function to place shape
 $("#shape").click(function() {
     var newShape = $("<div>");
     $("#canvas").append(newShape);
     newShape.attr("class", "art");
-
-    var randomTop = function() {
-        Math.floor((Math.random() * 400) + 1);
-    }
-    
-    var randomRight = function() {
-        Math.floor((Math.random() * 300) + 1);
-    }
-
     $(".art").css({
         "position": "absolute",
         "top": Math.floor((Math.random() * 400) + 1),
         "right": Math.floor((Math.random() * 300) + 1),
-        "width": "200px",
-        "height": "100px",
-        "background-color": "#73AD21"
+        "width": Math.floor((Math.random() * 200) + 1),
+        "height": Math.floor((Math.random() * 200) + 1),
+        "background-color": getRandomColor(5)
     });
 });
+
+
+
 
 
  
