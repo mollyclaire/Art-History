@@ -1,0 +1,17 @@
+#control-panel {
+    /* height: 500px; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    margin: 10%;
+}
+
+#canvas {
+    border: 2px, solid, black;
+    height: 500px;
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
