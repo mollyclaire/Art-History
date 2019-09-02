@@ -15,3 +15,14 @@ $("#bg").click(function() {
     $("#canvas").css("background-color", newBG);
   });
 
+// Reset game
+
+// Click function for generating random shape 
+
+// Function to place shape
+$("#shape").click(function() {
+    $(".art").css({"background-color": "yellow", "top": "-40px", "width": "20px"});
+});
+
+
+ 
