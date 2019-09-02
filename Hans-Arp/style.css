@@ -1,3 +1,13 @@
+.main-section {
+    padding: 2%;
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: .1em;
+}
+
 #control-panel {
     /* height: 500px; */
     box-sizing: border-box;
@@ -12,10 +22,15 @@
 #canvas {
     border: 2px, solid, black;
     height: 500px;
-    background-color: aliceblue;
+    background-color: darkgray;
     box-sizing: border-box;
     position: relative;
     overflow: hidden;
+}
+
+footer {
+    margin-top: 10px;
+    
 }
 
 /* .art {

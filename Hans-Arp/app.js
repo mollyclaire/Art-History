@@ -1,3 +1,8 @@
+// Modal
+$("#myModal").modal({
+    show: true
+  })
+
 
 // Function to generate a random color
 function getRandomColor(brightness){
@@ -12,13 +17,14 @@ function getRandomColor(brightness){
 // Click function for changing the background color
 $("#bg").on("click", function() {
     var newBG = getRandomColor(5);  
+    console.log(newBG);
     $("#canvas").css("background-color", newBG);
   });
 
 // Reset game
 $("#reset").on("click", function() {
     $("#canvas").empty();
-    $("#canvas").css("background-color",  "aliceblue");
+    $("#canvas").css("background-color",  "darkgray");
 })
 
 
