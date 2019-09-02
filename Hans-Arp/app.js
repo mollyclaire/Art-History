@@ -20,18 +20,20 @@ $("#bg").on("click", function() {
 
 // Function to place shape
 $("#shape").click(function() {
-    var newShape = $("<div>");
-    $("#canvas").append(newShape);
-    newShape.attr("class", "art");
-    $(".art").css({
-        "position": "absolute",
-        "top": Math.floor((Math.random() * 400) + 1),
-        "right": Math.floor((Math.random() * 300) + 1),
-        "width": Math.floor((Math.random() * 200) + 1),
-        "height": Math.floor((Math.random() * 200) + 1),
-        "background-color": getRandomColor(5)
-    });
+   var newShape = $("<div>");
+   $("#canvas").append(newShape);
+   newShape.attr("class", "art");
+   $(".art").css({
+       "position": "absolute",
+       "top": Math.floor((Math.random() * 400) + 1),
+       "right": Math.floor((Math.random() * 300) + 1),
+       "width": Math.floor((Math.random() * 200) + 1),
+       "height": Math.floor((Math.random() * 200) + 1),
+       "background-color": getRandomColor(5)
+   });
+   $(".art").removeClass("art")
 });
+
 
 
 
