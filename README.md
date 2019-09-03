@@ -9,7 +9,8 @@ When I decided to learn web development, I knew I would need to lift my head out
 In an effort to integrate these two interests of mine (art + computer programming), I've decided to create a series of web applications that center around art history. The two goals I have for this project include the challenge of finding associations between computer science and art and teaching users more about art. Check out the table of contents below to explore the applications in this series.
 
 ## Table of Contents
-* Hans Arp and Dada Movement
-### Learn more about Dada and the artist, Hans Arp, by generating your own art piece!
+
+#### Hans Arp and Dada Movement
+Learn more about Dada and the artist, Hans Arp, by generating your own art piece!
 
 ![gif](https://i.gyazo.com/257a213680b6ff555cee862a150a9948.gif)
