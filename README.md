@@ -10,7 +10,7 @@ In an effort to integrate these two interests of mine (art + computer programmin
 
 ## Table of Contents
 
-#### Hans Arp and Dada Movement
+#### 1. Hans Arp and the Dada Movement
 Learn more about Dada and the artist, Hans Arp, by generating your own art piece!
 
 ![gif](https://i.gyazo.com/257a213680b6ff555cee862a150a9948.gif)
