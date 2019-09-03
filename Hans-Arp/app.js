@@ -1,7 +1,7 @@
-// Modal
-$("#myModal").modal({
-    show: true
-  })
+// Modal opens when user clicks on brand logo
+$(".navbar-brand").on("click", function() {
+    $("#myModal").modal("show");
+})
 
 
 // Function to generate a random color
@@ -36,7 +36,7 @@ $("#shape").click(function() {
    $(".art").css({
        "position": "absolute",
        "top": Math.floor((Math.random() * 400) + 1),
-       "right": Math.floor((Math.random() * 400) + 1),
+       "right": Math.floor((Math.random() * 700) + 1),
        "width": Math.floor((Math.random() * 200) + 1),
        "height": Math.floor((Math.random() * 200) + 1),
        "background-color": getRandomColor(5)

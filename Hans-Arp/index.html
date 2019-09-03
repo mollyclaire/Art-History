@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="style.css" />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+        
 </head>
 
 <body>
@@ -40,22 +41,26 @@
         </div>
 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+            aria-labelledby="myModal" aria-hidden="true">
+            <div class="modal-dialog mw-100 w-75 modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Welcome</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-                        Testing, testing...
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <p>The art movement referred to as "Dada" began around 1916 as a reaction to the horrors of WWI. Jean (Hans) Arp devoted himself to the arts in Zurich while "the guns rumbled in the distance." 
+                        One of his pieces, <em>Collage with Squares Arranged According to the Laws of Chance</em>, became an iconic representation of Dada art in years to come. The artwork consists of fifteen
+                        torn pieces of paper pasted onto a larger piece of paper. The collage symbolized the rejection of true "art" and the acceptance of chance. Apparently, Arp threw the smaller pieces of paper 
+                        in the air and let them fall where they may. He felt liberated by the idea that his artistic intervention was removed from the work, and it's this free-spirited and avant-garde manner of thinking
+                        that motivated most Dada artists.</p>
+                        <p>In this simple application, you will be able to generate a piece of art created with the same randomization and chance of Arp's work. Instead of throwing pieces of paper into the air, the computer 
+                        randomly selects the shape and placement of a "piece of paper." As you engage with this game and create your own generative art pieces, consider why Dada artists might have rejected traditional ways of thinking about
+                        and creating art during such a violent time period. Dwell on the similarities between technology today and the art of chance and autonomy during the Dada movement. And most importantly, have fun! 
+                        </p>
                     </div>
                 </div>
             </div>
@@ -65,18 +70,23 @@
 
     <footer class="navbar navbar-light bg-light">
         <div class="container">
-            <p class="text-muted">To learn more about the Dada Movement, click here.</p>
+            <span class="text-muted">Click <a href="https://www.moma.org/learn/moma_learning/themes/dada/" target="_blank">here</a> to learn more about the Dada Movement.</span>
+            <span class="text-muted">Click <a href="http://molly-graham.com/" target="_blank">here</a> to see more of my work.</span>
         </div>
     </footer>
 
 
     <!-- JQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+    <!-- Bootstrap -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
     <!-- Main Game Logic  -->
     <script src="app.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#myModal").modal('show');
+        });
+    </script>
 </body>
 
 </html>

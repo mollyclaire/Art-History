@@ -28,6 +28,11 @@
     overflow: hidden;
 }
 
+#myModal {
+    padding: 2%;
+    
+}
+
 footer {
     margin-top: 10px;
     
