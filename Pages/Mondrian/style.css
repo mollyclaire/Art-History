@@ -12,47 +12,47 @@
     grid-template-rows: repeat(11, 1fr);
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr auto; 
   }
-  .a {
+  #a {
     grid-column: 1 / 1;
     grid-row: 1 / 1;
     background-color: red;
   }
-  .b {
+  #b {
     grid-column: 2 / 11;
     grid-row: 1 / 1;
     background-color: white;
   }
-  .c {
+  #c {
     grid-column: 1 / 4;
     grid-row: 2 / 2;
     background-color: yellow;
   }
-  .d {
+  #d {
     grid-column: 4 / 6;
     grid-row: 2 / 2;
     background-color: lightgray;
   }
-  .e {
+  #e {
     grid-column: 6 / 10;
     grid-row: 2 / 2;
     background-color: yellow;
   }
-  .f {
+  #f {
     grid-column: 10 / 11;
     grid-row: 2 / 2;
-    background-color: lightgray;
+    background-color: blue;
   }
-  .g {
+  #g {
     grid-column: 1 / 1;
     grid-row: 3 / 3;
     background-color: lightgray;
   }
-  .h {
+  #h {
     grid-column: 2 / 2;
     grid-row: 3 / 8;
     background-color: white;
   }
-  .i {
+  #i {
     grid-column: 3 / 6; 
     grid-row: 3 / 7;
     background-color: red;
@@ -61,33 +61,33 @@
     grid-template-rows: 1fr 1fr 1fr 1fr;
     
   }
-  .j {
+  #j {
     grid-column: 6 / 11;
     grid-row: 3 / 8;
     background-color: white;
   }
-  .k {
+  #k {
     grid-column: 1 / 1;
     grid-row: 4 / 6;
     background-color: yellow;
   }
-  .m {
+  #m {
     grid-column: 1 / 1;
     grid-row: 6 / 7;
     background-color: blue;
   }
-  .n {
+  #n {
     grid-column: 1 / 1;
     grid-row: 7 / 8;
     background-color: yellow;
   }
-  .p {
+  #p {
     grid-column: 3 / 6; 
     grid-row: 7 / 8;
     background-color: lightgray;
   }
   /* Nested Element */
-  .l {
+  #l {
     grid-column: 2 / 4; 
     grid-row: 2 / 4;
     background-color: lightgray;
